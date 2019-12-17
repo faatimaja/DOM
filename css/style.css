@@ -1,0 +1,175 @@
+body{
+    background: linear-gradient(to right, 	purple, pink);
+    color: White;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#container{
+    width: 90%;
+    margin: auto;
+    
+}
+
+#main-title{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 45px;
+}
+
+article{
+    display:flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}    
+img{
+    border: 5px solid pink;
+    width:95%;   
+}
+
+p{
+    line-height: 30px;
+}
+.content{
+    font-size: 20px;
+    padding: 20px;
+}
+.title{
+    padding-left: 20px;
+    font-size: 30px;
+}
+.lnk{
+    padding-left: 20px;
+}
+
+#div12, #div21, #div32{
+    width:50%;
+}
+
+#div11, #div22, #div31{
+    margin: 20px;
+}
+#div22 img{
+    float: right;
+ }
+ 
+#div11 img, #div22 img, #div31 img{
+    -webkit-box-shadow: 0px 3px 24px -4px rgb(54, 49, 49);
+    -moz-box-shadow: 0px 3px 24px -4px rgb(54, 49, 49);
+    box-shadow: 0px 3px 24px -4px rgb(54, 49, 49);
+}
+
+button, [type="submit"] {
+    margin-left: 20px;
+    height: 44px;
+    width: 180px;
+    background-color: white;
+    border: none;
+    margin-top:30px;
+    -webkit-box-shadow: 0px 3px 24px -4px rgb(83, 70, 70);
+    -moz-box-shadow: 0px 3px 24px -4px rgb(83, 70, 70);
+    box-shadow: 0px 3px 24px -4px rgb(83, 70, 70);
+    margin-top: 33px;
+    border: 1+2px solid purple;
+    font-size: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button:hover{
+    height: 45px;
+    width: 183px;
+}
+#button{
+    margin-top: 20px;
+}
+#button2{
+    margin-top:11px;
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+}
+
+.dragdrop{
+    width: 50%;
+    margin-top:10px;
+}
+
+#drop_zone p{
+    padding-left: 10px;
+}
+
+
+#ddtitle{
+    color: rgb(66, 3, 54);
+}
+
+#drop_zone {
+    border: 5px solid  rgb(66, 3, 54);
+    width:  90%;
+    height: 378px;
+}
+
+#wrapper{
+    width: 43%;
+    float:right;
+    background-color: rgb(66, 3, 54);
+    padding: 30px;
+    margin-top: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 3px 24px -4px rgb(54, 49, 49);
+    -moz-box-shadow: 0px 3px 24px -4px rgb(54, 49, 49);
+    box-shadow: 0px 3px 24px -4px rgb(54, 49, 49);
+}
+
+form label{
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:14px;
+    margin: 15px;
+}
+
+form input {
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+[type="submit"] {
+    clear: left;
+    margin: 30px 0 0 330px;
+    font-size:18px
+}
+
+#username, #psw, #dob{
+    width: 330px;
+    height: 35px;
+    background-color: rgb(186, 181, 185);
+    border:none;
+}
+#dob{
+   width: 140px;
+}
+#agree{
+    height: 40px;
+    width: 20px;
+    background-color: rgb(186, 181, 185);
+    border:none;
+}
+
+#form-title{
+    margin-left: 50px;
+    margin-bottom:30px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a0de352767.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="main-title">LOREM IPSUM</h1>
+        <article>
+            <div id="div11">
+                <img id="img1" src="Images/suma.jpg" alt="suma">
+            </div>
+            <div id="div12">
+                <h1 class="title">Lorem Ipsum</h1>
+                <p class="content" id="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <button id="btn1"><a href="https://www.google.com">Read more</a></button>
+            </div>
+        </article>
+        
+        <article>     
+            <div id="div21">
+                <h1 class="title">Lorem Ipsum</h1>
+                <p class="content" id="p2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
+                <button id="button"><a href="https://www.google.com">Read more</a></button>
+            </div>
+            <div id="div22">
+                <img  id="img2" src="Images/jesen.jpg" alt="jesen">
+            </div>
+        </article>
+            
+        <article>
+            <div id="div11">
+                <img id="img3" src="Images/aleja.jpg" alt="aleja">
+            </div>
+            <div id="div12">
+                <h1 class="title">Lorem Ipsum</h1>
+                <p class="content" id="p3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
+                <button id="button2"><a href="https://www.google.com">Read more</a></button>
+            </div>
+        </article>   
+
+        <article>
+        <div id="div21">
+            <h1 class="title">Lorem Ipsum</h1>
+            <p class="content" id="p2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
+            <button id="button"><a href="https://www.google.com">Read more</a></button>
+        </div>
+        <div id="div22">
+            <img  id="img2" src="Images/jesen.jpg" alt="jesen">
+        </div>
+    </article>
+
+    <article>
+        <div id="div11">
+            <img id="img3" src="Images/aleja.jpg" alt="aleja">
+        </div>
+        <div id="div12">
+            <h1 class="title">Lorem Ipsum</h1>
+            <p class="content" id="p3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
+            <button id="button2"><a href="https://www.google.com">Read more</a></button>
+        </div>
+    </article> 
+
+    <section>
+        <div class="dragdrop">
+            <h2 id="ddtitle">YOU CAN DROP YOUR FILE HERE:</h2>
+           <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+               <p>Drag one or more files.</p>
+            </div>
+        </div>
+
+        <div id="wrapper">
+            <h2 id="form-title">PLEASE FILL AND SUBMIT THE FORM</h2>
+            <form name="myForm" onsubmit="return validateForm()" method="post">
+                <label>Username:</label>
+                <input type="text" id="username" name="uname"> <br>
+            
+                <label>Password:</label>
+                <input type="password" id="psw" name="psw"><br>
+            
+                <label>Year of birth:</label>
+                <input type="date" id="dob" name="dob"><br>
+
+                <label>I agree to ToS.</label><br>
+                <input type="checkbox" name="agreement" id="agree" value="Agree">
+            
+                <input type="submit" value="Submit">
+				</form>
+        </div>
+    </section>
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
