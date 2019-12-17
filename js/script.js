@@ -51,6 +51,14 @@ function validateForm() {
     alert("Password must have at least 8 characters!");
     return false;
   }
+  if (myForm.agreement.checked == false) 
+  {
+    alert ('You didn\'t choose any of the checkboxes!');
+    return false;
+  } 
+  else {    
+      return true;
+  }
 
   var age = getAge(dob);
   if(age < 18){
